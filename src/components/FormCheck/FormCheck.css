@@ -1,0 +1,51 @@
+.container-form {
+  flex-direction: column;
+  background-color: var(--white-60);
+  justify-content: center;
+}
+
+.form {
+  color: var(--blue-20);
+  padding: 3rem;
+  row-gap: 2rem;
+}
+
+.title-form {
+  font-size: 2rem;
+}
+
+.input-gap {
+  gap: 1.5rem;
+}
+.label-gap {
+  row-gap: .5rem;
+}
+
+.input-wrapper label {
+  font-weight: 500;
+}
+.input-wrapper label input {
+  min-width: 30rem;
+  padding: 0.8125rem .8rem;
+  color: var(--blue-20);
+  border-radius: .5rem;
+  border: .1rem solid rgba(0, 0, 0, 0.2);
+}
+
+.subscribe-button {
+  padding: .6rem 0;
+
+  color: var(--white-100);
+  font-size: 1rem;
+  font-weight: 500;
+
+  background-color: var(--blue-60);
+  border-radius: .5rem;
+  border: 0;
+
+  transition: background 100ms ease-in-out;
+}
+
+.subscribe-button:hover {
+  background-color: var(--blue-20);
+}
