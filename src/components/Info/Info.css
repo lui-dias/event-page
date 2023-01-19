@@ -35,6 +35,12 @@
   background-color: var(--blue-60);
   border-radius: .5rem;
   border: 0;
+
+  transition: background 100ms ease-in-out;
+}
+
+.sign-button:hover {
+  background-color: rgba(72, 83, 112, 0.8);
 }
 
 .picture > img {
