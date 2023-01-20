@@ -1,2 +1,1 @@
-# event-page
-Software Event Page
+# Event Page
