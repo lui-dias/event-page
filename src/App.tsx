@@ -1,11 +1,11 @@
-import { Form } from './components/Form/Form';
+import { FormRegister } from './components/FormRegister/FormRegister';
 import { Info } from './components/Info/Info';
 
 export const App = () => {
   return (
     <>
       <Info />
-      <Form />
+      <FormRegister />
     </>
   )
 }
