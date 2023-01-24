@@ -1,4 +1,6 @@
 import { Calendar } from 'phosphor-react';
+import { Link } from 'react-router-dom';
+
 import EventPicture from '../../assets/projeto-picture.jpg';
 import './Info.css';
 
@@ -15,7 +17,9 @@ export const Info = () => {
           <strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
         </p>
 
-        <button className='sign-button'>Have you signed up yet?</button>
+        <Link to='/checkForm'  className='sign-button'>
+          Have you signed up yet?
+        </Link>
       </section>
 
       <section className='picture'>
