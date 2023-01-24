@@ -1,20 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { App } from './App';
-
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import './global.css';
-import Root from "./routes/root";
+
+import { App } from './App';
 import CheckForm from "./routes/checkForm";
 
+import './global.css';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />,
+    element: <App />,
   },
   {
     path: "/checkForm",
