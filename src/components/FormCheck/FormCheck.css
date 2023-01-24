@@ -24,7 +24,7 @@
 .input-wrapper label {
   font-weight: 500;
 }
-.input-wrapper label input {
+.form-check .input-wrapper label input {
   min-width: 30rem;
   padding: 0.8125rem .8rem;
   color: var(--blue-20);

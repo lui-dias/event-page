@@ -6,9 +6,9 @@ export const FormCheck = () => {
       <form action="#" className='form grid'>
         <h2 className='title-form'>Check the record</h2>
 
-        <div className='input-gap grid'>
+        <div className='form-check input-gap grid'>
           <div className='input-wrapper input-gap grid'>
-            <label className='label-gap grid'>
+            <label className='form-check label-gap grid'>
               Nickname
               <input />
             </label>
