@@ -1,14 +1,14 @@
 import { Calendar } from 'phosphor-react';
 import { Link } from 'react-router-dom';
 
-import EventPicture from '../../assets/projeto-picture.jpg';
+import EventPicture from '../../../assets/projeto-picture.jpg';
 import './Info.css';
 
 export const Info = () => {
   return (
     <main className='container-info flex'>
       <section className='info grid'>
-        <header className='header flex'>
+        <header className='info-header header flex ce'>
           <h1>Event Page</h1>
           <Calendar size={42} color='#FFF'/>
         </header>

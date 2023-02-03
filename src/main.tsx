@@ -5,15 +5,15 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-import { App } from './App';
 import CheckForm from "./routes/checkForm";
 
 import './global.css';
+import { Home } from './components/Home';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Home />,
   },
   {
     path: "/checkForm",

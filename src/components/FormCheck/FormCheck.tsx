@@ -2,7 +2,7 @@ import './FormCheck.css';
 
 export const FormCheck = () => {
   return (
-    <section className='container-form flex'>
+    <section className='form-check-container flex'>
       <form action="#" className='form grid'>
         <h2 className='title-form'>Check the record</h2>
 

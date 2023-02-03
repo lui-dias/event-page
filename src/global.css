@@ -35,4 +35,6 @@ body * {
 #root {
   border-radius: 0.6875rem;
   overflow: hidden;
+
+  width: 100%;
 }
